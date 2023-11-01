@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablets</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Підключення необхідних бібліотек Bootstrap і JavaScript-файлів -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+        .button {
+            border: none;
+            background-color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Модальне вікно -->
+    <div class="modal" id="myModal" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">ShopX</h5>
+                    <button type="button" class="btn-close button" aria-label="Close">✖️</button>
+                </div>
+                <div class="modal-body">
+                    <p>Page is temporarily unavailable</p>
+                </div>
+                <div class="modal-footer">
+                    <a type="button" class="btn btn-primary" href="./index.html">Home page</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Скрипт для відкриття модального вікна при завантаженні сторінки -->
+    <script>
+        $(document).ready(function () {
+            $('#myModal').modal('show');
+        });
+    </script>
+
+</body>
+
+</html>

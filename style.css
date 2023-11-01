@@ -1,0 +1,272 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+body .container-fluid .homePage {
+  width: 100%;
+  min-height: 100vh;
+}
+body .container-fluid .homePage .Popular-models {
+  width: 100%;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+body .container-fluid .homePage .Popular-models h2 {
+  width: 100%;
+  height: 5vh;
+  padding: 20px 0;
+}
+body .container-fluid .homePage .Popular-models .models {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+body .container-fluid .homePage .Popular-models .models .card {
+  height: 60vh;
+}
+body .container-fluid .homePage .Popular-models .models .card img {
+  height: 60%;
+}
+body .container-fluid .footer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .container-fluid .mainblockfooter {
+  width: 90%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+body .container-fluid .footerblocktop {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+body .container-fluid .footerblocktop h2 {
+  color: #111;
+  font-family: DM Sans;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.3px;
+  margin-right: 20px;
+}
+body .container-fluid .footerblocktop button {
+  width: 175px;
+  height: 50px;
+  border: none;
+  border-radius: 8px;
+  background: #10B981;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .container-fluid .footerblocktop button p {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.232px;
+}
+body .container-fluid hr {
+  background-color: #111111;
+  width: 100%;
+  height: 2px;
+}
+body .container-fluid .footerblockcenter {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+}
+body .container-fluid .leftfooterbox {
+  width: 20%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 100px;
+}
+body .container-fluid .leftfooterbox h3 {
+  color: #111;
+  font-family: DM Sans;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.3px;
+  width: 200px;
+}
+body .container-fluid .Emailaddress {
+  width: 289px;
+  height: 51px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+body .container-fluid .leftfooterbox button {
+  width: 50px;
+  height: 51px;
+  border-radius: 10px 10px 0 0;
+  background-color: #10B981;
+  border: none;
+  position: absolute;
+  margin-top: 58px;
+  margin-left: 239px;
+}
+body .container-fluid .Services,
+body .container-fluid .About,
+body .container-fluid .Help {
+  width: 20%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+body .container-fluid .Green {
+  color: #10B981;
+  font-family: DM Sans;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.232px;
+  margin-bottom: 25px;
+  margin-top: 50px;
+}
+body .container-fluid .Services p {
+  color: #111;
+  font-family: DM Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.205px;
+  margin-bottom: 25px;
+}
+body .container-fluid .About p {
+  color: #111;
+  font-family: DM Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.205px;
+  margin-bottom: 25px;
+}
+body .container-fluid .Help p {
+  color: #111;
+  font-family: DM Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.205px;
+  margin-bottom: 25px;
+}
+body .container-fluid .footerblockbottom {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body .container-fluid .footerblockbottomtext {
+  width: 50%;
+  height: 10vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+body .container-fluid .footerblockbottomtext p {
+  color: #111;
+  font-family: DM Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.205px;
+  margin-right: 40px;
+}
+body .container-fluid .masengers {
+  width: 50%;
+  height: 10vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+body .container-fluid .masengers i {
+  margin-left: 40px;
+}
+body .Computers .products {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+body .Computers .products .container {
+  width: 80%;
+  min-height: 100vh;
+  padding-bottom: 20px;
+}
+body .Computers .products .container .card {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+body .Computers .products .container .card .characteristic {
+  width: 30%;
+}
+body .Computers .products .container .card .characteristic ul li::marker {
+  color: green;
+}
+body .Computers .products .filter {
+  width: 20%;
+  min-height: 100vh;
+  margin-bottom: 50px;
+  margin-top: 10px;
+}
+body .Computers .products .filter p {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 40px;
+}
+body .Computers .products .filter .block .list-group h4 {
+  font-size: 20px;
+  color: green;
+  text-align: center;
+}
+body .Computers .products .filter .block .buttonblock {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .Computers .products .filter .block .buttonblock .btn {
+  width: 70%;
+}/*# sourceMappingURL=style.css.map */

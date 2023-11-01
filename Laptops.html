@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laptops</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container-fluid Computers">
+        <div class="header">
+            <nav class="navbar bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="./index.html">ShopX</a>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </nav>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary " style="margin-top: 5px;">
+                <div class="container-fluid ">
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="./Laptops.html">Laptops</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./Phones.html">Phons</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./Tablets.html">Tablets</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./Watches.html">Watches</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="products">
+            <div class="container">
+                <div class="card">
+                    <img src="https://hotline.ua/img/tx/304/3047683685.jpg" class="card-img-top" alt="..."
+                        style="width: 18rem;">
+                    <div class="characteristic">
+                        <ul>
+                            <li>display 14.2 ", 3024x1964</li>
+                            <li>CPU, Apple M1 Pro / Apple M1 Max</li>
+                            <li>GPU M1 Max 24-Core - M1 Pro 16-Core</li>
+                            <li>RAM 16 - 64 GB</li>
+                            <li>storage 512 - 2048 GB</li>
+                            <li>weight 1.61 kg</li>
+                        </ul>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Apple MacBook Pro 14<span class="badge bg-secondary"
+                                style="margin-left: 5px;">2021</span></h5>
+                        <p style="font-size: 12px; color: green;">Price from</p>
+                        <h4 style="font-size: 18px; color: green;">
+                            $1,399.00 up to $3,599.00
+                        </h4>
+                        <p class="card-text" style="font-size: 16px;">
+                            <span class="badge bg-secondary">2021</span>
+                            <span class="badge bg-secondary">Pro</span>
+                            <span class="badge bg-secondary">extreme battery life</span>
+                            <span class="badge bg-secondary">miniLED</span>
+                            <span class="badge bg-secondary">120 Hz</span>
+                            <span class="badge bg-secondary">USB4</span>
+                            <span class="badge bg-secondary">Wi-Fi 6</span>
+                            <span class="badge bg-secondary">backlight</span>
+                            <span class="badge bg-secondary">fingerprint scanner</span>
+                        </p>
+                        <a href="#" class="btn btn-success">Buy</a>
+                        <button type="button" class="btn btn-danger" id="liveToastBtn">Add to cart</button>
+
+                        <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                            <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                                <div class="toast-header">
+                                    <strong class="me-auto">ShopX</strong>
+                                    <small>1 second ago</small>
+                                    <button type="button" class="btn-close" data-bs-dismiss="toast"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="toast-body">
+                                    Product was added to your basket
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <img src="https://ilounge.ua/files/products/apple-macbook-air-13-m1-256gb-space-gray-2020-mgn63-4.1000x.jpeg"
+                        class="card-img-top" alt="..." style="width: 18rem;">
+                    <div class="characteristic">
+                        <ul>
+                            <li>display 13.3 ", 2560x1600 (16:10)</li>
+                            <li>CPU, Apple M1GPU M1 7-Core / M1 8-Core</li>
+                            <li>RAM 8 / 16 GB</li>
+                            <li>storage
+                                256 - 2048 GB</li>
+                            <li>weight 1.29 kg</li>
+                        </ul>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Apple MacBook Air 13<span class="badge bg-secondary"
+                                style="margin-left: 5px;">2020</span>M1</h5>
+                        <p style="font-size: 12px; color: green;">Price from</p>
+                        <h4 style="font-size: 18px; color: green;">
+                            $729.00 up to $1,999.00
+                        </h4>
+                        <p class="card-text" style="font-size: 16px;">
+                            <span class="badge bg-secondary">2021</span>
+                            <span class="badge bg-secondary">Air</span>
+                            <span class="badge bg-secondary">ultrabook</span>
+                            <span class="badge bg-secondary">extreme battery life</span>
+                            <span class="badge bg-secondary">USB4</span>
+                            <span class="badge bg-secondary">Wi-Fi 6</span>
+                            <span class="badge bg-secondary">backlight</span>
+                            <span class="badge bg-secondary">fingerprint scanner</span>
+                        </p>
+                        <a href="#" class="btn btn-success">Buy</a>
+                        <a href="#" class="btn btn-danger">Add to cart</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://applehome.te.ua/wp-content/uploads/2022/08/19644.750.png" class="card-img-top"
+                        alt="..." style="width: 18rem;">
+                    <div class="characteristic">
+                        <ul>
+                            <li>display 16.2 ", 3456x2234</li>
+                            <li>CPU, Apple M1 Pro / Apple M1 Max</li>
+                            <li>GPU M1 Max 24-Core - M1 Pro 16-Core</li>
+                            <li>RAM 16 - 64 GB</li>
+                            <li>storage 512 - 4096 GB</li>
+                            <li>weight 2.15 kg</li>
+                        </ul>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Apple MacBook Pro 16<span class="badge bg-secondary"
+                                style="margin-left: 5px;">2021</span></h5>
+                        <p style="font-size: 12px; color: green;">Price from</p>
+                        <h4 style="font-size: 18px; color: green;">
+                            $1,750.00 up to $4,599.00
+                        </h4>
+                        <p class="card-text" style="font-size: 16px;">
+                            <span class="badge bg-secondary">2021</span>
+                            <span class="badge bg-secondary">Pro</span>
+                            <span class="badge bg-secondary">extreme battery life</span>
+                            <span class="badge bg-secondary">Ultra HD (4K)</span>
+                            <span class="badge bg-secondary">miniLED</span>
+                            <span class="badge bg-secondary">120 Hz</span>
+                            <span class="badge bg-secondary">USB4</span>
+                            <span class="badge bg-secondary">Wi-Fi 6</span>
+                            <span class="badge bg-secondary">fast charge</span>
+                            <span class="badge bg-secondary">backlight</span>
+                            <span class="badge bg-secondary">fingerprint scanner</span>
+                        </p>
+                        <a href="#" class="btn btn-success">Buy</a>
+                        <a href="#" class="btn btn-danger">Add to cart</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://hotline.ua/img/tx/391/3919943165.jpg" class="card-img-top" alt="..."
+                        style="width: 18rem;">
+                    <div class="characteristic">
+                        <ul>
+                            <li>display 15.3 ", 2880x1864</li>
+                            <li>CPU, Apple M2</li>
+                            <li>GPU M2 10-Core</li>
+                            <li>RAM 8 - 24 GB</li>
+                            <li>storage 256 - 2048 GB</li>
+                            <li>weight 1.51 kg</li>
+                        </ul>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Apple MacBook Air 15<span class="badge bg-secondary"
+                                style="margin-left: 5px;">2023</span></h5>
+                        <p style="font-size: 12px; color: green;">Price from</p>
+                        <h4 style="font-size: 18px; color: green;">
+                            $1,244.00 up to $2,499.00
+                        </h4>
+                        <p class="card-text" style="font-size: 16px;">
+                            <span class="badge bg-secondary">2021</span>
+                            <span class="badge bg-secondary">Air</span>
+                            <span class="badge bg-secondary">extreme battery life</span>
+                            <span class="badge bg-secondary">USB4</span>
+                            <span class="badge bg-secondary">Wi-Fi 6</span>
+                            <span class="badge bg-secondary">fast charge</span>
+                            <span class="badge bg-secondary">backlight</span>
+                            <span class="badge bg-secondary">fingerprint scanner</span>
+                        </p>
+                        <a href="#" class="btn btn-success">Buy</a>
+                        <a href="#" class="btn btn-danger">Add to cart</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://hotline.ua/img/tx/368/3680830885.jpg" class="card-img-top" alt="..."
+                        style="width: 18rem;">
+                    <div class="characteristic">
+                        <ul>
+                            <li>display 14.2 ", 3024x1964</li>
+                            <li>CPU, Apple M2 Pro / Apple M2 Max</li>
+                            <li>GPU M2 Max 30-Core - M2 Pro 19-Core</li>
+                            <li>RAM 16 - 96 GB</li>
+                            <li>storage 512 - 8192 GB</li>
+                            <li>weight 1.6 kg</li>
+                        </ul>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Apple MacBook Pro 14<span class="badge bg-secondary"
+                                style="margin-left: 5px;">2023</span></h5>
+                        <p style="font-size: 12px; color: green;">Price from</p>
+                        <h4 style="font-size: 18px; color: green;">
+                            $1,406.00 up to $6,299.00
+                        </h4>
+                        <p class="card-text" style="font-size: 16px;">
+                            <span class="badge bg-secondary">2021</span>
+                            <span class="badge bg-secondary">Pro</span>
+                            <span class="badge bg-secondary">extreme battery life</span>
+                            <span class="badge bg-secondary">miniLED</span>
+                            <span class="badge bg-secondary">120 Hz</span>
+                            <span class="badge bg-secondary">USB4</span>
+                            <span class="badge bg-secondary">Wi-Fi 6E</span>
+                            <span class="badge bg-secondary">backlight</span>
+                            <span class="badge bg-secondary">fingerprint scanner</span>
+                        </p>
+                        <a href="#" class="btn btn-success">Buy</a>
+                        <a href="#" class="btn btn-danger">Add to cart</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="filter">
+                <p class="d-inline-flex gap-1">
+                    <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                        aria-expanded="folse" aria-controls="collapseExample">
+                        Filters
+                    </a>
+                </p>
+                <div class="collapse show" id="collapseExample">
+                    <div class="card card-body">
+                        <div class="block">
+                            <ul class="list-group">
+                                <h4>
+                                    Series
+                                </h4>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                                    <label class="form-check-label" for="firstCheckbox">MacBook ≤2017</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">MacBook Air ≤2019</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                                    <label class="form-check-label" for="thirdCheckbox">MacBook Air ≥2020</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">MacBook Pro ≤2019</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">MacBook Pro ≥2020</label>
+                                </li>
+                            </ul>
+                            <ul class="list-group">
+                                <h4>
+                                    Screen size
+                                </h4>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                                    <label class="form-check-label" for="firstCheckbox">12"</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">13"</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                                    <label class="form-check-label" for="thirdCheckbox">14"</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">15"</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">16"</label>
+                                </li>
+                            </ul>
+                            <ul class="list-group">
+                                <h4>
+                                    Screen resolution
+                                </h4>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                                    <label class="form-check-label" for="firstCheckbox">HD (720p)</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                                    <label class="form-check-label" for="thirdCheckbox">Quad HD (2K)</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">Ultra HD (4K)</label>
+                                </li>
+                            </ul>
+                            <ul class="list-group">
+                                <h4>
+                                    Screen type
+                                </h4>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                                    <label class="form-check-label" for="firstCheckbox">TN+Film</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">IPS</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">MiniLED</label>
+                                </li>
+                            </ul>
+                            <ul class="list-group">
+                                <h4>
+                                    Refresh rate
+                                </h4>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                                    <label class="form-check-label" for="firstCheckbox">60 Hz</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">120 Hz</label>
+                                </li>
+                            </ul>
+                            <ul class="list-group">
+                                <h4>
+                                    CPU
+                                </h4>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">Apple M1</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                                    <label class="form-check-label" for="thirdCheckbox">Apple M1 Pro</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">Apple M1 Max</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">Apple M2</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                                    <label class="form-check-label" for="thirdCheckbox">Apple M2 Pro</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">Apple M2 Max</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">Apple M2 Max</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">Intel Core i3</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">Intel Core i5</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">Intel Core i7</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">Intel Core i9</label>
+                                </li>
+                            </ul>
+                            <ul class="list-group">
+                                <h4>
+                                    CPU code name
+                                </h4>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                                    <label class="form-check-label" for="firstCheckbox">Intel Coffee Lake (9th
+                                        Gen)</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">Intel Coffee Lake (10th
+                                        Gen)</label>
+                                </li>
+                            </ul>
+                            <ul class="list-group">
+                                <h4>
+                                    CPU series
+                                </h4>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                                    <label class="form-check-label" for="firstCheckbox">Energy efficient (U)</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">Integrated graphics (G)</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">Productive (H)</label>
+                                </li>
+                            </ul>
+                            <ul class="list-group">
+                                <h4>
+                                    Screen size
+                                </h4>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                                    <label class="form-check-label" for="firstCheckbox">2 cores</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">4 cores</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">6 cores</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                                    <label class="form-check-label" for="thirdCheckbox">8 cores</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">10 cores</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">12 cores</label>
+                                </li>
+                            </ul>
+                            <ul class="list-group">
+                                <h4>
+                                    CPU frequency
+                                </h4>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                                    <label class="form-check-label" for="firstCheckbox">≤1.4 GHz</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">1.5-1.9 GHz</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                                    <label class="form-check-label" for="thirdCheckbox">2.0-2.4 GHz</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">2.5-2.9 GHz</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">≥3 GHz</label>
+                                </li>
+                            </ul>
+                            <ul class="list-group">
+                                <h4>
+                                    RAM
+                                </h4>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                                    <label class="form-check-label" for="firstCheckbox">8 GB</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">12 GB</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                                    <label class="form-check-label" for="thirdCheckbox">16 GB</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">24 GB</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">32 GB</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">≥64 GB</label>
+                                </li>
+                            </ul>
+                            <ul class="list-group">
+                                <h4>
+                                    RAM frequency
+                                </h4>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                                    <label class="form-check-label" for="firstCheckbox">≤2400 MHz</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">2666 MHz</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">3733 MHz</label>
+                                </li>
+                            </ul>
+                            <ul class="list-group">
+                                <h4>
+                                    RAM
+                                </h4>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                                    <label class="form-check-label" for="firstCheckbox">Integrated</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">Dedicated</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                                    <label class="form-check-label" for="thirdCheckbox">NVIDIA (all models)</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">AMD (all models)</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">Radeon Pro</label>
+                                </li>
+                            </ul>
+                            <ul class="list-group">
+                                <h4>
+                                    Dedicated GPU
+                                </h4>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                                    <label class="form-check-label" for="firstCheckbox">≤4 GB</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">4 GB</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">8 GB</label>
+                                </li>
+                            </ul>
+                            <ul class="list-group">
+                                <h4>
+                                    Max. connected monitors
+                                </h4>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                                    <label class="form-check-label" for="firstCheckbox">1</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">2</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">3</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">≥4</label>
+                                </li>
+                            </ul>
+                            <ul class="list-group">
+                                <h4>
+                                    Drive size
+                                </h4>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                                    <label class="form-check-label" for="firstCheckbox">≤120 GB</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">250 GB</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                                    <label class="form-check-label" for="thirdCheckbox">500 GB</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">1 TB</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">≥2 TB</label>
+                                </li>
+                            </ul>
+                            <ul class="list-group">
+                                <h4>
+                                    Weight
+                                </h4>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                                    <label class="form-check-label" for="firstCheckbox">≤1 kg</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">1.1-1.3 kg</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                                    <label class="form-check-label" for="thirdCheckbox">1.4-1.6 kg</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">1.7-1.9 kg</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">2-2.2 kg</label>
+                                </li>
+                            </ul>
+                            <ul class="list-group">
+                                <h4>
+                                    Inputs & Outputs USB A
+                                </h4>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                                    <label class="form-check-label" for="firstCheckbox">USB 2.0</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">USB 3.2 gen1</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">USB 3.2 gen2</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">USB C 3.2 gen1</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">USB C 3.2 gen2</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">≥2 USB C 3.2 gen2</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">USB C (Alt Mode)</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">USB4</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">Thunderbolt v3</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">Thunderbolt v4</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">HDMI</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">miniDisplayPort</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">Card reader</label>
+                                </li>
+                            </ul>
+                            <ul class="list-group">
+                                <h4>
+                                    USB type C
+                                </h4>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                                    <label class="form-check-label" for="firstCheckbox">2</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">≥3</label>
+                                </li>
+                            </ul>
+                            <ul class="list-group">
+                                <h4>
+                                    Network connection
+                                </h4>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                                    <label class="form-check-label" for="firstCheckbox">LAN (RJ-45)</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">Wi-Fi 6 (802.11ax)</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">Wi-Fi 6E (802.11ax)</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">Bluetooth 5</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">Bluetooth 5.3</label>
+                                </li>
+                            </ul>
+                            <ul class="list-group">
+                                <h4>
+                                    Multimedia
+                                </h4>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                                    <label class="form-check-label" for="firstCheckbox">Power Delivery</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">Fast charging</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">No DVD drive</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">Connection with
+                                        smartphone</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">Webcam</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">full HD+ webcam</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">Dolby Atmos</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">Speakers ≥ 4</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                    <label class="form-check-label" for="secondCheckbox">Famous brand acoustics</label>
+                                </li>
+                            </ul>
+                            <div class="buttonblock">
+                                <button type="button" class="btn btn-outline-success btn-lg">Apply</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="mainblockfooter">
+                <div class="footerblocktop">
+                    <h2>Ready to get started?</h2>
+                    <button type="button" class="btn btn-success btn-lg">Get started</button>
+                </div>
+                <hr>
+                <div class="footerblockcenter">
+                    <div class="leftfooterbox">
+                        <h3>Subscribe to our Website</h3>
+                        <input type="text" class="Emailaddress" placeholder="Email address">
+                        <button><svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M15.8875 15L11.4625 10.575C11.2297 10.3408 11.099 10.024 11.099 9.69375C11.099 9.36351 11.2297 9.0467 11.4625 8.8125C11.5787 8.69534 11.7169 8.60234 11.8693 8.53888C12.0216 8.47542 12.185 8.44275 12.35 8.44275C12.515 8.44275 12.6784 8.47542 12.8307 8.53888C12.983 8.60234 13.1213 8.69534 13.2375 8.8125L18.5375 14.1125C18.6546 14.2287 18.7476 14.367 18.8111 14.5193C18.8746 14.6716 18.9072 14.835 18.9072 15C18.9072 15.165 18.8746 15.3284 18.8111 15.4807C18.7476 15.633 18.6546 15.7713 18.5375 15.8875L13.2375 21.25C13.1207 21.3658 12.9822 21.4575 12.8299 21.5197C12.6776 21.5819 12.5145 21.6134 12.35 21.6125C12.1855 21.6134 12.0224 21.5819 11.8701 21.5197C11.7178 21.4575 11.5793 21.3658 11.4625 21.25C11.2297 21.0158 11.099 20.699 11.099 20.3687C11.099 20.0385 11.2297 19.7217 11.4625 19.4875L15.8875 15Z"
+                                    fill="white" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="Services">
+                        <h6 class="Green">Services</h6>
+                        <p>Email Marketing</p>
+                        <p>Campaigns</p>
+                        <p>Branding</p>
+                        <p>Offline</p>
+                    </div>
+                    <div class="About">
+                        <h6 class="Green">About</h6>
+                        <p>Our Story</p>
+                        <p>Benefits</p>
+                        <p>Team</p>
+                        <p>Careers</p>
+                    </div>
+                    <div class="Help">
+                        <h6 class="Green">Help</h6>
+                        <p>FAQs</p>
+                        <p>Contact Us</p>
+                    </div>
+                </div>
+                <div class="footerblockbottom">
+                    <div class="footerblockbottomtext">
+                        <p>Terms & Conditions</p>
+                        <p>Privacy Policy</p>
+                    </div>
+                    <div class="masengers">
+                        <a href="#"><i class="fa-brands fa-facebook-f" style="color: #000000;"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter" style="color: #000000;"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram" style="color: #000000;"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const toastTrigger = document.getElementById('liveToastBtn')
+        const toastLiveExample = document.getElementById('liveToast')
+
+        if (toastTrigger) {
+            const toastBootstrap = bootstrap.Toast.getOrCreateInstance(toastLiveExample)
+            toastTrigger.addEventListener('click', () => {
+                toastBootstrap.show()
+            })
+        }
+    </script>
+</body>
+
+</html>

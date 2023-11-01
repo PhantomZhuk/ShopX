@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopX</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!-- homePage -->
+        <div class="homePage">
+            <nav class="navbar bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="./index.html">ShopX</a>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </nav>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary " style="margin-top: 5px;">
+                <div class="container-fluid ">
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="./Laptops.html">Laptops</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./Phones.html">Phons</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./Tablets.html">Tablets</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./Watches.html">Watches</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="Popular-models">
+                <h2>Popular models</h2>
+                <div class="models">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://itc.ua/wp-content/uploads/2023/09/Apple-iPhone-15-Pro-lineup-hero-230912_Full-Bleed-Image.jpg.xlarge.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">iPhone 15 Pro Max</h5>
+                            <h5>1500$</h5>
+                            <button type="button" class="btn btn-success" id="liveToastBtn">Buy</button>
+                            <button type="button" class="btn btn-danger" id="liveToastBtn">Add to cart</button>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://hotline.ua/img/tx/304/3047683685.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Apple MacBook Pro 14</h5>
+                            <h5>$1,399.00 <span class="badge bg-success">New</span></h5>
+                            <button type="button" class="btn btn-success" id="liveToastBtn">Buy</button>
+                            <button type="button" class="btn btn-danger" id="liveToastBtn">Add to cart</button>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://mcstore.com.ua/image/cache/catalog/MNXP3-1668688288-600x600.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Apple iPad Pro</h5>
+                            <h5>1199$</h5>
+                            <button type="button" class="btn btn-success" id="liveToastBtn">Buy</button>
+                            <button type="button" class="btn btn-danger" id="liveToastBtn">Add to cart</button>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img src="data:image/jpeg;base64,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kYC5NKzMOlau6kWI0qlG4YkfW++u9mroIY/qCu2YUAmu1GZqVXFdIwmbLcZhy6VAJSG+UW6ZQPs2H8afVrjDHzNd6qMmaKKKoCiiigCiiigCiiigCuckYI8etdKKAaGe2hHCsZx0FOEuGVjeuEuEA1rNFEudelBK9K6GAdawYB1qlOVl6UAAaitzB41gweNAdY8RyNtemnvrjisWUkCADhc+3kKwYTWWw6swdiQQACLXvbhryoDu5A+jWpYfVrpJIApYa5QT7hSbATtICGOvEG3woDMtiLAlfK37a4rHrq5PgVGtKMRIsYBa5ubACtwl9QRY9aA5ZVoWJTwrC4hDIY8vA2zfpc9KNppaJsvO1/K9AdI8MLg304+dcMJhn3zEg2zMb9b3tb30o2PGSg6cfZTkkYFSiGwFZoorRAooooAooooAooooAooooAooooArBFZooDicOtaNhhypTRUoCM4c1zOHPQ04UUotjaYD0Purm0Z/kGnailCxmC2vfUEEEdQeNEGSMWUE+Jp5rXKKULGXGRmXKVtdb3BNtDbX4UpDZAFsTbmBpThux0HurelCxmwmC/KF73BJYDW4J11px+Tjqfhb7qUUUohqi2raiiqAooooAooooAooooD/2Q=="
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Apple Watch Ultra</h5>
+                            <h5>1050$</h5>
+                            <button type="button" class="btn btn-success" id="liveToastBtn">Buy</button>
+                            <button type="button" class="btn btn-danger" id="liveToastBtn">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- homePage END -->
+        <!-- footer -->
+        <div class="footer">
+            <div class="mainblockfooter">
+                <div class="footerblocktop">
+                    <h2>Ready to get started?</h2>
+                    <button type="button" class="btn btn-success btn-lg">Get started</button>
+                </div>
+                <hr>
+                <div class="footerblockcenter">
+                    <div class="leftfooterbox">
+                        <h3>Subscribe to our Website</h3>
+                        <input type="text" class="Emailaddress" placeholder="Email address">
+                        <button><svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M15.8875 15L11.4625 10.575C11.2297 10.3408 11.099 10.024 11.099 9.69375C11.099 9.36351 11.2297 9.0467 11.4625 8.8125C11.5787 8.69534 11.7169 8.60234 11.8693 8.53888C12.0216 8.47542 12.185 8.44275 12.35 8.44275C12.515 8.44275 12.6784 8.47542 12.8307 8.53888C12.983 8.60234 13.1213 8.69534 13.2375 8.8125L18.5375 14.1125C18.6546 14.2287 18.7476 14.367 18.8111 14.5193C18.8746 14.6716 18.9072 14.835 18.9072 15C18.9072 15.165 18.8746 15.3284 18.8111 15.4807C18.7476 15.633 18.6546 15.7713 18.5375 15.8875L13.2375 21.25C13.1207 21.3658 12.9822 21.4575 12.8299 21.5197C12.6776 21.5819 12.5145 21.6134 12.35 21.6125C12.1855 21.6134 12.0224 21.5819 11.8701 21.5197C11.7178 21.4575 11.5793 21.3658 11.4625 21.25C11.2297 21.0158 11.099 20.699 11.099 20.3687C11.099 20.0385 11.2297 19.7217 11.4625 19.4875L15.8875 15Z"
+                                    fill="white" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="Services">
+                        <h6 class="Green">Services</h6>
+                        <p>Email Marketing</p>
+                        <p>Campaigns</p>
+                        <p>Branding</p>
+                        <p>Offline</p>
+                    </div>
+                    <div class="About">
+                        <h6 class="Green">About</h6>
+                        <p>Our Story</p>
+                        <p>Benefits</p>
+                        <p>Team</p>
+                        <p>Careers</p>
+                    </div>
+                    <div class="Help">
+                        <h6 class="Green">Help</h6>
+                        <p>FAQs</p>
+                        <p>Contact Us</p>
+                    </div>
+                </div>
+                <div class="footerblockbottom">
+                    <div class="footerblockbottomtext">
+                        <p>Terms & Conditions</p>
+                        <p>Privacy Policy</p>
+                    </div>
+                    <div class="masengers">
+                        <a href="#"><i class="fa-brands fa-facebook-f" style="color: #000000;"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter" style="color: #000000;"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram" style="color: #000000;"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer END -->
+    </div>
+</body>
+
+</html>
